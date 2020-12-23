@@ -22,9 +22,9 @@
         
         computed: {       
             videoUrl() {
-                return this.field.value;
+                return 'https://player.vimeo.com/video/' + this.field.value;
             },
-            height() {                
+            height() {
                 return this.field.options.height;
             },
             width() {

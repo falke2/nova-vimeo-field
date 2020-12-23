@@ -42,7 +42,7 @@ export default {
          * Update the field's internal value.
          */
         handleChange(value) {
-          this.value = value
+          this.value = value.match(/([\d]{3,})/gm)[0]
         }
     }
 }
