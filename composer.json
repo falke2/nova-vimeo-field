@@ -1,6 +1,6 @@
 {
     "name": "falke2/nova-vimeo-field",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova field fork.",
     "keywords": [
         "laravel",
         "nova",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tanjemark\\Fields\\": "src/"
+            "Falke2\\Fields\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tanjemark\\Fields\\FieldServiceProvider"
+                "Falke2\\Fields\\FieldServiceProvider"
             ]
         }
     },
